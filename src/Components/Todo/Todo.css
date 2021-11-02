@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+.App_block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Todo {
+  grid-area: main;
+  font-size: 77px;
+}
+
+.AppTodo {
+  position: relative;
+  background-color: #2f4d72;
+
+  border-radius: 12px;
+  height: 600px;
+  width: 700px;
+}
+
+.TodoContent {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.TodoHeader {
+  margin-left: 90px;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+  color: white;
+}
+
+.TodoInput {
+  display: flex;
+  flex-direction: row;
+}
+
+.Input {
+  height: 55px;
+  width: 350px;
+  border-radius: 10px;
+  font-size: 35px;
+}
+.btn-in {
+  height: 60px;
+  width: 130px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.btn-del {
+  height: 55px;
+  width: 130px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.Output {
+  font-size: 40px;
+  list-style-type: disc;
+  color: white;
+}

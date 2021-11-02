@@ -1,0 +1,26 @@
+.Sidebar {
+  background-color: #081627;
+  border-radius: 10px;
+  grid-area: sidebar;
+}
+
+.Sidebar_nav {
+  text-align: left;
+}
+
+.Sidebar_nav ul li {
+  list-style: none;
+}
+
+.Sidebar_nav ul li a {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(214, 214, 214);
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.Sidebar_nav ul li a:active {
+  color: red;
+}
+

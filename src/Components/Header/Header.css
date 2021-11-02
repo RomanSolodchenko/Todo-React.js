@@ -1,0 +1,19 @@
+.Header {
+  background-color: #24292e;
+  grid-area: header;
+}
+.Header_logo {
+  display: flex;
+}
+.Header_logo_img_i {
+  margin-top: 7px;
+  margin-right: 15px;
+  margin-left: 40px;
+  width: 45px;
+  height: 50px;
+}
+.Header_logo_text {
+  margin-top: 15px;
+  font-size: 22px;
+  color: whitesmoke;
+}

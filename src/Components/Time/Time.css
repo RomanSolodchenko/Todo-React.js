@@ -1,0 +1,15 @@
+.Time {
+  color: rgb(252, 252, 252);
+  font-size: 62px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 200px;
+  margin-right: 15px;
+  width: 280px;
+  height: 90px;
+  border-radius: 5px;
+  background-color: rgba(167, 136, 136, 0);
+  box-shadow: 2px 4px 5px 5px  rgb(84, 159, 209);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
